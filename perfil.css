@@ -1,0 +1,140 @@
+body {
+    background-image: url('imagenes/fondos/bg3.jpg');
+    background-attachment: fixed;
+    background-size: contain;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header, footer {
+    background-image: url(imagenes/fondos/bg1.jpg);
+    margin-left: -100px;
+    margin-right: -100px;
+}
+footer{
+    background-image: url(imagenes/fondos/bg1.jpg);
+}
+hr {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tituloServicios{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.tablaServicios, .tdServicios, .tituloTabla{
+    background-color: white;
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+.tdServicios{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.tituloTabla{
+    text-align: center;
+    background-color: lightgrey;
+}
+.imagenesTablas{
+    width: 150px;
+    height: 150px;
+}
+.descripcionServicio{
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tablaHeader, .bodyHeader, .celdaHeader{
+    border: 0;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bodyHeader{
+    text-align: center;
+}
+.tablaHeader{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.brGrande{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.tbodyContacto{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+}
+.tdContacto{
+    padding-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+}
+.trLogo{
+    padding-left: 700px;
+}
+.imagenMeta{
+    width: 45px;
+    height: 45px;
+}
+.textoNormal{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 1200px;
+}
+.textoNormalImagenDerecha{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textoLargoContacto{
+    width: 300px;
+}
+.tdContactanos{
+    padding-right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    white-space: nowrap;
+}
+.textAreaContactanos{
+    width: 300px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.botonesContactanos{
+    width: 240px;
+}
+.listaNormal{
+    list-style-image: url(imagenes/imagenesMeta/check.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.precioProducto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+.precioProductoProx{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
+.botonMsj{
+    text-align: center;
+    margin: auto;
+}
+.tituloMsj{
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    border: 1px solid black;
+}
